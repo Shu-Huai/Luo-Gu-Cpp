@@ -13,7 +13,7 @@ function(set_problems LIB_NAME TARGET_NAME)
     add_executable(${TARGET_NAME} "${TARGET_NAME}/Solution.cpp")
 endfunction()
 set(TARGET_LIST p1000 p1001 p1002 p3954 p5708 p5706 p5705 p5703 p5707 p2670 p1421 p1425 b2002 b2005 b2025 b2029 p2433
-        p5709 p5710 p5711 p5712 p5713 p5714 p2676)
+        p5709 p5710 p5711 p5712 p5713 p5714 p2676 p1152 p1271 p1177)
 foreach (TARGET_NAME ${TARGET_LIST})
     set_problems(${TARGET_NAME}_lib ${TARGET_NAME})
 endforeach ()
